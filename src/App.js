@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import { Layout } from 'antd';
+import { MenuLayout } from './Layouts/MenuLayout/MenuLayout';
+import { HeaderLayout } from './Layouts/HeaderLayout/HeaderLayout';
+import { ContentLayout } from './Layouts/ContentLayout/ContentLayout'
+import { FooterLayout } from './Layouts/FooterLayout/FooterLayout'
+import 'antd/dist/antd.css';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        <Layout>
+
+            <MenuLayout />
+            <HeaderLayout />
+
+          <Layout className="site-layout" style={{ marginLeft: 200 }}>
+            <ContentLayout />
+            <FooterLayout />
+
+          </Layout>
+        </Layout>
+    </>
   );
 }
 
