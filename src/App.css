@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+
+.buttonRed {
+  background: red;
+  cursor: pointer;
+}
+
+.buttonBlue {
+  background: blue;
+  cursor: pointer;
+}
+
+.news{
+  
+  background-color: burlywood;
+
+
+}
+
+.container{
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.back {
+  padding-bottom:10 ;
+  height: 650px;
+  background: url(https://www.ixbt.com/img/n1/news/2019/7/5/world_of_warcraft_battle_for_azeroth_elektronnyy_klyuch_wow-azeroth_large.jpg) no-repeat center;
+  background-size: cover;
+
+  text-align: center;
+}
+.back1 {
+  padding: 0;
+  height: 800px;
+  background: url(https://p4.wallpaperbetter.com/wallpaper/847/125/105/anduin-wrynn-genn-greymane-night-elves-dwarfs-wallpaper-preview.jpg) no-repeat center;
+  background-size: cover;
+
+  text-align: center;
+}
