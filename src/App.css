@@ -76,3 +76,11 @@
 
   text-align: center;
 }
+.back2 {
+  padding: 0;
+  height: 800px;
+  background: url(https://pbs.twimg.com/media/Dpy45UjW0AA_hat.jpg) no-repeat center;
+  background-size: cover;
+
+  text-align: center;
+}
